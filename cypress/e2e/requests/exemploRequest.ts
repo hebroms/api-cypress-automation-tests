@@ -1,5 +1,5 @@
-class EquipamentoTelemetriaRequest {
-    static getEquipamento(endpoint: string) {
+class exemploRequest {
+    static getExemplo(endpoint: string) {
       return cy.api({
         method: "GET",
         url: endpoint,
@@ -8,4 +8,4 @@ class EquipamentoTelemetriaRequest {
     }
   }
   
-export default EquipamentoTelemetriaRequest;  
+export default exemploRequest;  

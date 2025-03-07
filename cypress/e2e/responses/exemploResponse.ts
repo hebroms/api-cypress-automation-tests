@@ -1,5 +1,5 @@
-class EquipamentoTelemetriaResponse {
-    static validarEquipamento(statusCode: number, response: Cypress.Response) {
+class exemploResponse {
+    static validarExemplo(statusCode: number, response: Cypress.Response) {
       expect(response.status).to.eq(statusCode);
       expect(response.body).to.be.an("array").and.not.to.be.empty;
   
@@ -15,4 +15,4 @@ class EquipamentoTelemetriaResponse {
     }
 }
   
-export default EquipamentoTelemetriaResponse;  
+export default exemploResponse;  
