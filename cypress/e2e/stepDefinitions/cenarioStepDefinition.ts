@@ -1,6 +1,6 @@
 import { Given, Then } from "@badeball/cypress-cucumber-preprocessor";
-import EquipamentoTelemetriaRequest from "../requests/equipamentoTelemetriaRequest";
-import EquipamentoTelemetriaResponse from "../responses/equipamentoTelemetriaResponse";
+import EquipamentoTelemetriaRequest from "../requests/exemploRequest";
+import EquipamentoTelemetriaResponse from "../responses/exemploResponse";
 
 let response: Cypress.Response;
 
