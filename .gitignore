@@ -1,0 +1,20 @@
+# Ignorar dependências do Node.js
+node_modules/
+package-lock.json
+
+# Ignorar arquivos de compilação do Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress/results/
+
+# Ignorar configurações locais
+cypress.env.json
+cypress/config/local.json
+
+# Ignorar cache do Cypress
+.cypress_cache/
+
+# Ignorar relatórios Allure temporários
+allure-results/
+allure-report/
